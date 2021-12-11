@@ -1,0 +1,124 @@
+.makeupGallery {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 20px;
+}
+.info-banner {
+  background-color: #faf2f4;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+.info-banner p {
+  margin-left: 150px;
+}
+.info-banner-title {
+  /*  */
+  font-family: "Freight Display", Georgia, serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 150px;
+}
+.banner-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+.font-awesome-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+.font-awesome-banner-icon {
+  /*  */
+}
+.font-awesome-banner-text {
+  padding: 15px;
+  text-align: center;
+}
+.makeup-holder {
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.makeup-holder2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.makeup-info {
+  /*  */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+  margin-top: 30px;
+}
+.makeup-title {
+  margin-bottom: -5px;
+}
+.makeup-button {
+  width: 170px;
+}
+/* .skincare-title (h2) styled in app.css */
+/* product cards styled in app.css */
+
+.makeup-products {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  flex-direction: row-reverse;
+}
+.gallery-cards {
+  display: flex;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 900px;
+}
+.makeup-large-img {
+  /*  */
+  width: 530px;
+  height: auto;
+  background-color: pink;
+  background-image: url(../../images/clearBottleClose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+}
+.gallery-card {
+  margin: 20px;
+}
+
+.makeup-card-1 {
+  background-image: url(../../images/jelly1.jpg);
+}
+.makeup-card-2 {
+  background-image: url(../../images/pink1.jpg);
+}
+.makeup-card-3 {
+  background-image: url(../../images/jelly2.jpg);
+}
+.makeup-card-4 {
+  background-image: url(../../images/jelly3.jpg);
+}
+.makeup-card-5 {
+  background-image: url(../../images/twoBottlePinkBackground.jpg);
+}
+.makeup-card-6 {
+  background-image: url(../../images/pink2.jpg);
+}

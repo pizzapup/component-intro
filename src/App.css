@@ -1,7 +1,21 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: Apercu Pro, -apple-system, BlinkMacSystemFont, Helvetica,
+    sans-serif;
+  /* Apercu Pro is the font used on Glossier.com */
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: black;
+}
+.AppMargin {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +49,119 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* PRODUCT GALLERY CARD STYLES */
+.gallery-card {
+  /*  */
+  margin-right: 10px;
+  background-color: #d9d9d9;
+  max-width: 250px;
+}
+.card-image {
+  width: 250px;
+  height: 333px;
+  background-color: #facfe0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url(../../images/hero-1.jpg); */
+  /*  */
+}
+
+.card-bottom {
+  /*  */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  width: 250px;
+  height: 143px;
+}
+.card-title {
+  /*  */
+  margin-top: -10px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+.card-description {
+  /*  */
+  color: #555555;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 40s0;
+  line-height: 14px;
+}
+.card-button-holder {
+  /*  */
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  width: 232px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.card-button {
+  /*  */
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  width: 232px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#dropdown-custom-1 {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  width: 232px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  font-weight: bold;
+}
+.drop-button-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  color: black;
+}
+
+/* SHOP NOW BUTTONS */
+.shop-button,
+.hero-button {
+  background-color: black;
+  color: white;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* TITLES/HEADINGS */
+h2 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
 }

@@ -1,0 +1,108 @@
+.skincareGallery {
+  margin: 20px;
+}
+.info-banner {
+  background-color: #faf2f4;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+.info-banner p {
+  margin-left: 150px;
+}
+.info-banner-title {
+  /*  */
+  font-family: "Freight Display", Georgia, serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.skincare-holder {
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.skincare-holder2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skincare-info {
+  /*  */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+  margin-top: 30px;
+}
+.skincare-title {
+  margin-bottom: -5px;
+}
+.skincare-button {
+  width: 170px;
+}
+/* .skincare-title (h2) styled in app.css */
+/* product cards styled in app.css */
+
+.product-gallery {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.gallery-cards {
+  display: flex;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 900px;
+}
+.gallery-large-img {
+  /*  */
+  width: 530px;
+  height: auto;
+  background-color: pink;
+  background-image: url(../../images/face.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+}
+.gallery-card {
+  margin: 20px;
+}
+.skincare-card-1 {
+  /*  */
+
+  background-image: url(../../images/centeredWithPlant.jpg);
+}
+.skincare-card-2 {
+  /*  */
+  background-image: url(../../images/centeredWithPlant.jpg);
+}
+.skincare-card-3 {
+  /*  */
+  background-image: url(../../images/centeredWithPlant.jpg);
+}
+.skincare-card-4 {
+  /*  */
+  background-image: url(../../images/centeredWithPlant.jpg);
+}
+.skincare-card-5 {
+  /*  */
+  background-image: url(../../images/centeredWithPlant.jpg);
+}
+.skincare-card-6 {
+  /*  */
+  background-image: url(../../images/centeredWithPlant.jpg);
+}

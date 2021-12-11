@@ -1,0 +1,47 @@
+.featured-holder {
+  /*  */
+}
+.featured-top {
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.featured-title {
+  /*  */
+}
+.featured-shop-all {
+  /*  */
+}
+.featured-products {
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-1 {
+  /*  */
+  background-image: url(../../images/centeredWithPlant.jpg);
+}
+.card-2 {
+  /*  */
+  background-image: url(../../images/Bigstock_420985367.jpg);
+}
+.card-3 {
+  /*  */
+  background-image: url(../../images/two-amber-bottles.jpg);
+}
+.card-4 {
+  background-image: url(../../images/purplebottle.jpg);
+}
+.card-5 {
+  background-image: url(../../images/Bigstock_348448513.jpg);
+}

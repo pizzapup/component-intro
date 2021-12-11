@@ -1,0 +1,168 @@
+.quote-holder {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*  */
+}
+.quote-text {
+  /*  */
+  font-family: "Freight Display", Georgia, serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.company-logos {
+  /*  */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 40px;
+  width: 60%;
+}
+/* footer content */
+footer {
+  /*  */
+  height: 600px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-top {
+  display: flex;
+  padding: 20px;
+}
+.stores {
+  width: 50%;
+  display: flex;
+}
+.stores-circle {
+  border-radius: 50%;
+  background-color: antiquewhite;
+  height: 144px;
+  width: 144px;
+  margin-left: 20px;
+}
+.stores-text {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 60%;
+}
+.stores-text-top {
+  font-size: 20px;
+}
+.country {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 40%;
+}
+.country-span {
+  font-size: 20px;
+}
+.footer-middle {
+  padding: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-email {
+  /*  */
+}
+.emailBox {
+  width: 450px;
+  height: 40px;
+  border-radius: 3px;
+  border: white solid;
+}
+.your-email {
+  /*  */
+}
+.footer-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.link-col {
+}
+.link-heading {
+  /*  */
+  text-decoration: underline;
+  /* text-align: center; */
+}
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+}
+li {
+  padding-top: 2px;
+  /*  */
+}
+.footer-bottom {
+  padding: 30px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  font-size: 60px;
+  font-style: italic;
+}
+.footer-bottom-right {
+  /* display: flex; */
+}
+.social-media {
+  display: flex;
+}
+.social-media-icon {
+  height: 30px;
+  margin: 10px;
+  width: 30px;
+  border: white solid;
+  border-radius: 3px;
+}
+.icon-reference-holder {
+  /*  */
+  margin-left: 40px;
+}
+.icon-reference-text {
+  display: flex;
+  margin: 2px;
+}
+.ref-title {
+  width: 60px;
+}
+.icon-listing {
+  color: grey;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: lighter;
+}
+.flaticon-site {
+  color: #e0f2ed;
+}
+.icon-ref {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  display: flex;
+  /* width: 25%; */
+}

@@ -1,0 +1,66 @@
+/*  */
+.hero-holder {
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hero-img-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img {
+  width: 450px;
+  height: 550px;
+  /*  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-img-1 {
+  /*  */
+  background-color: #f3644b;
+  background-image: url(../../images/hero-1.jpg);
+}
+.hero-img-2 {
+  background-color: #cddcf2;
+  background-image: url(../../images/Bigstock_440132684.jpg);
+  margin-left: 10px;
+}
+
+.hero-logo {
+  /*  */
+  font-family: "Sonsie One", cursive;
+  font-size: 120px;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+  height: 118px;
+  width: 88px;
+  position: absolute;
+  top: 90px;
+  right: 450px;
+  font-style: italic;
+}
+.hero-des-holder {
+  /*  */
+  margin-top: 100px;
+  width: 370px;
+  margin-left: 10px;
+}
+.hero-des {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  /*  */
+}
+.hero-des-bold {
+  /*  */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
